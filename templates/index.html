@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Utils</title>
+    <style>
+        .container li{
+        list-style:none;
+        padding:10px;
+        }
+        .container li a{
+        text-decoration:none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+<!--    <ul>-->
+<!--        <li>-->
+<!--            <a href="/">Home</a>-->
+<!--        </li><li>-->
+<!--            <a href="charcount">CharCount</a>-->
+<!--        </li>-->
+<!--    <li>-->
+<!--            <a href="removepunc">removepunc</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="newlineremove">newlineremove</a>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--            <a href="capfirst">capfirst</a>-->
+<!--        </li>-->
+<!--    </ul>-->
+
+    <h2> Welcome to the text analyzer.........</h2>
+    <form action="analyze", method="GET">
+    <textarea name='text' style="margin: 0px; width: 1141px; height: 106px;"></textarea><br>
+        <input name='removepunc' type="checkbox">Remove Punctuations <br>
+        <input name="charcount" type="checkbox"> Character Count <br>
+    <button type='submit'>Analyze text</button>
+    </form>
+</div>
+</body>
+</html>
